@@ -17,7 +17,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    public const HOME = '/home';
+    public const HOME = '/';
     //添加路由控制器路径
     protected  $namespace =  'App\\Http\\Controllers';
     /**
