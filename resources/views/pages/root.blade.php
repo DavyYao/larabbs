@@ -2,5 +2,8 @@
 @section('title', '首页')
 
 @section('content')
-  <h1>这里是首页</h1>
+    <?php
+        echo date('Y-m-d H:i:s',1725256455);
+    ?>
+  <h1>这里是首页ssss</h1>
 @stop
