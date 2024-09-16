@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://152.32.175.167'),
+    'url' => env('APP_URL', 'http://www.chiningmeng.com'),
 
     'asset_url' => env('ASSET_URL'),
 
