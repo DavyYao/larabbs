@@ -3,10 +3,10 @@
 
 @section('content')
     <?php
-        echo date('Y-m-d H:i:s',1727607783).'<br />';
-        echo date('Y-m-d H:i:s',1725968384).'<br />';
-        echo strtotime('2024-10-12 00:00:00').'<br />';
-        echo strtotime('2024-10-12 23:59:59').'<br />';
+        echo date('Y-m-d H:i:s',1729177448).'<br />';
+        echo date('Y-m-d H:i:s',1729094150).'<br />';
+        echo strtotime('2024-10-16 00:00:00').'<br />';
+        echo strtotime('2024-10-16 23:59:59').'<br />';
         echo hash('sha256','acfc106d-7bb9-9f28-3536-4ee292cbebd8').'<br />';
         echo mb_substr('粤A1234OO', -2, 2)
     ?>

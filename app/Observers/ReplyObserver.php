@@ -13,6 +13,10 @@ class ReplyObserver
     {
         //
         $reply->content = clean($reply->content, 'user_topic_body');
+        // 判断内容为空的处理方式，拒绝保存入库
+        if ($reply->content === '') {
+            return false;
+        }
     }
 
     public function updating(Reply $reply)
